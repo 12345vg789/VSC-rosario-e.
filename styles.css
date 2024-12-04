@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #000000;
+    background-color:#F3F3E0
+}
+
+header {
+    text-align: center;
+    background: #133E87;
+    color: rgb(255, 255, 255);
+    padding: 120px 0;
+}
+
+.titulo-principal {
+    font-size: 2.8em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #CBDCEB;
+}
+
+.navbar a {
+    color: #133E87;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.imagen-principal,
+.imagen-seccion,
+.imagen-consejo {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.consejo {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.redes-sociales {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
